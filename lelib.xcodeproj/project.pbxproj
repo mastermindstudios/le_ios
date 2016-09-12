@@ -892,6 +892,7 @@
 		4BB806C3181D3DF1003066E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DSTROOT = /tmp/lelib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lelib/lelib-Prefix.pch";
@@ -904,6 +905,7 @@
 		4BB806C4181D3DF1003066E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				DSTROOT = /tmp/lelib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "lelib/lelib-Prefix.pch";
@@ -958,6 +960,7 @@
 		7EEE35641AB46DBF00668C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -985,6 +988,7 @@
 		7EEE35651AB46DBF00668C3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1044,6 +1048,7 @@
 		7EEE35911AB46F5C00668C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1072,6 +1077,7 @@
 		7EEE35921AB46F5C00668C3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1139,6 +1145,7 @@
 				7EEE35651AB46DBF00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEE35691AB46DBF00668C3E /* Build configuration list for PBXNativeTarget "lelib-iOS-dynamicTests" */ = {
 			isa = XCConfigurationList;
@@ -1147,6 +1154,7 @@
 				7EEE35671AB46DBF00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EEE35901AB46F5C00668C3E /* Build configuration list for PBXNativeTarget "lelib-iOS-static" */ = {
 			isa = XCConfigurationList;
@@ -1155,6 +1163,7 @@
 				7EEE35921AB46F5C00668C3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
