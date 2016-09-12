@@ -36,7 +36,7 @@
 		4BBB74FC184AC89600B393BC /* LEBackgroundThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB74F9184AC86F00B393BC /* LEBackgroundThread.m */; };
 		4BE1B5C81897BF5C008DD96E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
 		4BE1B5C91897BF61008DD96E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
-		7EEE35561AB46DBF00668C3E /* lelib-iOS-dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE35551AB46DBF00668C3E /* lelib-iOS-dynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE35561AB46DBF00668C3E /* lelib-iOS-dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE35551AB46DBF00668C3E /* lelib-iOS-dynamic.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7EEE355C1AB46DBF00668C3E /* lelib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEE35511AB46DBF00668C3E /* lelib.framework */; };
 		7EEE356A1AB46DE500668C3E /* lelibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB806BE181D3DF1003066E5 /* lelibTests.m */; };
 		7EEE356B1AB46E2A00668C3E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
@@ -45,12 +45,12 @@
 		7EEE356E1AB46E2A00668C3E /* LogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0162184BDEE000AB5C9A /* LogFile.m */; };
 		7EEE356F1AB46E2A00668C3E /* LogFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0166184BDEFC00AB5C9A /* LogFiles.m */; };
 		7EEE35701AB46E2A00668C3E /* lecore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50E3E1187B5097007DCFE5 /* lecore.m */; };
-		7EEE35711AB46E7600668C3E /* LeNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE1B5C61897BF57008DD96E /* LeNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35721AB46E7600668C3E /* LEBackgroundThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBB74FB184AC88600B393BC /* LEBackgroundThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE35711AB46E7600668C3E /* LeNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE1B5C61897BF57008DD96E /* LeNetworkStatus.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EEE35721AB46E7600668C3E /* LEBackgroundThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBB74FB184AC88600B393BC /* LEBackgroundThread.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7EEE35731AB46E7600668C3E /* lelib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB806A7181D3DF1003066E5 /* lelib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35741AB46E7600668C3E /* LELog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B08F54818436082003D813B /* LELog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35751AB46E7600668C3E /* LogFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0161184BDEE000AB5C9A /* LogFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35761AB46E7600668C3E /* LogFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0165184BDEFC00AB5C9A /* LogFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE35751AB46E7600668C3E /* LogFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0161184BDEE000AB5C9A /* LogFile.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EEE35761AB46E7600668C3E /* LogFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0165184BDEFC00AB5C9A /* LogFiles.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7EEE35771AB46E7600668C3E /* lecore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B50E3DD187B4D7C007DCFE5 /* lecore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35821AB46F5C00668C3E /* lelib-iOS-static.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE35811AB46F5C00668C3E /* lelib-iOS-static.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE35961AB46FA200668C3E /* LeNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE1B5C71897BF5C008DD96E /* LeNetworkStatus.m */; };
@@ -59,12 +59,12 @@
 		7EEE35991AB46FA200668C3E /* LogFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0162184BDEE000AB5C9A /* LogFile.m */; };
 		7EEE359A1AB46FA200668C3E /* LogFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBA0166184BDEFC00AB5C9A /* LogFiles.m */; };
 		7EEE359B1AB46FA200668C3E /* lecore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50E3E1187B5097007DCFE5 /* lecore.m */; };
-		7EEE359C1AB46FB000668C3E /* LeNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE1B5C61897BF57008DD96E /* LeNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE359D1AB46FB000668C3E /* LEBackgroundThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBB74FB184AC88600B393BC /* LEBackgroundThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE359C1AB46FB000668C3E /* LeNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE1B5C61897BF57008DD96E /* LeNetworkStatus.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EEE359D1AB46FB000668C3E /* LEBackgroundThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBB74FB184AC88600B393BC /* LEBackgroundThread.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7EEE359E1AB46FB000668C3E /* lelib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB806A7181D3DF1003066E5 /* lelib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EEE359F1AB46FB000668C3E /* LELog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B08F54818436082003D813B /* LELog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35A01AB46FB000668C3E /* LogFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0161184BDEE000AB5C9A /* LogFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EEE35A11AB46FB000668C3E /* LogFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0165184BDEFC00AB5C9A /* LogFiles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EEE35A01AB46FB000668C3E /* LogFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0161184BDEE000AB5C9A /* LogFile.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7EEE35A11AB46FB000668C3E /* LogFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBA0165184BDEFC00AB5C9A /* LogFiles.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7EEE35A21AB46FB000668C3E /* lecore.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B50E3DD187B4D7C007DCFE5 /* lecore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
